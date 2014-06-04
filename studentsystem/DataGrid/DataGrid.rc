@@ -1,0 +1,269 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DataGrid.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DataGrid.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 DataGrid"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DataGrid 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DATAGRID_DIALOG DIALOGEX 0, 0, 274, 184
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DataGrid"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,67,155,50,14
+    PUSHBUTTON      "取消",IDCANCEL,149,155,50,14
+    CONTROL         "",IDC_ADODC1,"{67397AA3-7FB1-11D0-B148-00A0C922E820}",
+                    0x0,13,13,146,18
+    CONTROL         "",IDC_DATAGRID1,"{CDE57A43-8B86-11D0-B3C6-00A0C90AEA82}",
+                    WS_TABSTOP,13,34,244,99
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DataGrid Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DataGrid\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DataGrid.EXE\0"
+            VALUE "ProductName", "DataGrid 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DATAGRID_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DATAGRID_DIALOG DLGINIT
+BEGIN
+    IDC_ADODC1, 0x376, 343, 0
+0x0024, 0x0000, 0x0043, 0x0034, 0x0031, 0x0034, 0x0035, 0x0033, 0x0031, 
+0x0030, 0x002d, 0x0034, 0x0036, 0x0039, 0x0043, 0x002d, 0x0031, 0x0031, 
+0x0064, 0x0031, 0x002d, 0x0042, 0x0031, 0x0038, 0x0032, 0x002d, 0x0030, 
+0x0030, 0x0041, 0x0030, 0x0043, 0x0039, 0x0032, 0x0032, 0x0045, 0x0038, 
+0x0032, 0x0030, 0x4321, 0x1234, 0x0008, 0x0000, 0x16a2, 0x0000, 0x02ca, 
+0x0000, 0x6bc0, 0xba38, 0x0000, 0x0006, 0x0000, 0x0000, 0x0003, 0x0000, 
+0xffff, 0xffff, 0x000f, 0x0000, 0x001e, 0x0000, 0x0003, 0x0000, 0x0003, 
+0x0000, 0x0008, 0x0000, 0x0000, 0x0000, 0x0032, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0003, 0x0000, 0x0001, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x0000, 0x0000, 0xffff, 0x0000, 0x000c, 0x0000, 
+0x0044, 0x0053, 0x004e, 0x003d, 0x0073, 0x0074, 0x0075, 0x0064, 0x0065, 
+0x006e, 0x0074, 0x0073, 0x0000, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 
+0x0073, 0x0074, 0x0075, 0x0064, 0x0065, 0x006e, 0x0074, 0x0073, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0016, 0x0000, 0x0073, 0x0065, 
+0x006c, 0x0065, 0x0063, 0x0074, 0x0020, 0x002a, 0x0020, 0x0066, 0x0072, 
+0x006f, 0x006d, 0x0020, 0x0073, 0x0074, 0x0075, 0x0064, 0x0065, 0x006e, 
+0x0074, 0x0073, 0x0010, 0x0000, 0x5b66, 0x751f, 0x4fe1, 0x606f, 0x002d, 
+0x002d, 0x002d, 0x0053, 0x0074, 0x0075, 0x0064, 0x0065, 0x006e, 0x0074, 
+0x0073, 0x8868, 0x8601, 0x0000, 0x0190, 0x5f90, 0x0001, 0xcb04, 0xccce, 
+"\345" 
+    IDC_DATAGRID1, 0x37a, 498, 0
+0x0024, 0x0000, 0x0043, 0x0044, 0x0045, 0x0035, 0x0037, 0x0041, 0x0035, 
+0x0035, 0x002d, 0x0038, 0x0042, 0x0038, 0x0036, 0x002d, 0x0031, 0x0031, 
+0x0044, 0x0030, 0x002d, 0x0062, 0x0033, 0x0043, 0x0036, 0x002d, 0x0030, 
+0x0030, 0x0041, 0x0030, 0x0043, 0x0039, 0x0030, 0x0041, 0x0045, 0x0041, 
+0x0038, 0x0032, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x002a, 
+0x0000, 0x03e8, 0x4321, 0x1234, 0x0008, 0x0000, 0x25d4, 0x0000, 0x0f66, 
+0x0000, 0xe860, 0x5ad5, 0x0000, 0x0006, 0x0001, 0x0000, 0x0002, 0x0000, 
+0x0005, 0x8000, 0x0008, 0x8000, 0x0000, 0x3f80, 0x0000, 0x4170, 0x0000, 
+0x0000, 0x0101, 0x0002, 0x0001, 0x0101, 0x0101, 0x0100, 0x0000, 0x0000, 
+0x5203, 0x0be3, 0x8f91, 0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x8601, 
+0x0000, 0x0190, 0x5f90, 0x0001, 0xcb04, 0xccce, 0x03e5, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0086, 0x9000, 0x9001, 
+0x015f, 0x0400, 0xcecb, 0xe5cc, 0x0000, 0x0000, 0x0012, 0x0000, 0x0053, 
+0x0074, 0x0075, 0x0064, 0x0065, 0x006e, 0x0074, 0x0073, 0x8868, 0x0006, 
+0x0000, 0x0004, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5690, 0x6d83, 0x900b, 0x11d0, 
+0x8494, 0xa000, 0x11c9, 0xed10, 0x3850, 0x6b26, 0x0002, 0x0006, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0086, 0x9000, 0x9001, 0x015f, 0x0400, 0xcecb, 0x0804, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5690, 0x6d83, 0x900b, 0x11d0, 
+0x8494, 0xa000, 0x11c9, 0xed10, 0x3850, 0x6b26, 0x0002, 0x0006, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0086, 0x9000, 0x9001, 0x015f, 0x0400, 0xcecb, 0x0804, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x4234, 0x0000, 
+0x0000, 0x0002, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x4234, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 DataGrid(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DataGrid.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

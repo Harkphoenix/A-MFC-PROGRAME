@@ -1,0 +1,31 @@
+﻿生成启动时间为 2014/6/4 星期三 12:21:52。
+     1>项目“G:\recover\2014.3-2014.6\mfctest\studentsystem - 副本 (3) - 副本\studentsystem\studentsystem.vcxproj”在节点 2 上(Build 个目标)。
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\studentsystem.res" studentsystem.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\recover\2014.3-2014.6\mfctest\studentsystem - 副本 (3) - 副本\Debug\studentsystem.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\recover\2014.3-2014.6\mfctest\studentsystem - 副本 (3) - 副本\Debug\studentsystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\recover\2014.3-2014.6\mfctest\studentsystem - 副本 (3) - 副本\Debug\studentsystem.lib" /MACHINE:X86 Debug\studentsystem.res
+         Debug\adodc1.obj
+         Debug\Cduobiao.obj
+         Debug\chaDlg.obj
+         Debug\CHANGEshuru.obj
+         Debug\CHUFAshuru.obj
+         Debug\CLASSshuru.obj
+         Debug\column.obj
+         Debug\columns.obj
+         Debug\Cshanchu.obj
+         Debug\datagrid1.obj
+         Debug\denglu.obj
+         Debug\insertdata.obj
+         Debug\MainDlg.obj
+         Debug\Mainshuru.obj
+         Debug\REWARDshuru.obj
+         Debug\stdafx.obj
+         Debug\studentsystem.obj
+         Debug\studentsystemDlg.obj
+         Debug\update.obj
+         studentsystem.vcxproj -> G:\recover\2014.3-2014.6\mfctest\studentsystem - 副本 (3) - 副本\Debug\studentsystem.exe
+     1>已完成生成项目“G:\recover\2014.3-2014.6\mfctest\studentsystem - 副本 (3) - 副本\studentsystem\studentsystem.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.67
